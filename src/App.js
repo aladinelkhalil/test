@@ -1,9 +1,10 @@
 import React from "react";
-import logo from "./logo.svg";
+import Home from "./components/Home";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
-  return <div>App</div>;
+  return <Home />;
 }
 
 export default App;
